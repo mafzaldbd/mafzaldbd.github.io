@@ -427,10 +427,10 @@
   <div class="hero-glow"></div>
   <div class="hero-glow2"></div>
   <div class="hero-content">
-    <div class="hero-tag">Available for L2/L3 Cloud &amp; Architecture Roles</div>
+    <div class="hero-tag">Open to DevOps, SRE &amp; Automation Engineering Roles</div>
     <h1 class="hero-name">Mohd<br><em>Afzal</em></h1>
-    <p class="hero-title">Cloud Infrastructure &amp; Operations Engineer</p>
-    <p class="hero-desc">Bridging AWS, Azure, and GCP with 3+ years of enterprise-grade infrastructure operations, incident management, and automation at Infosys.</p>
+    <p class="hero-title">DevOps &amp; Automation Engineer</p>
+    <p class="hero-desc">3+ years of enterprise AWS &amp; multi-cloud operations at Infosys, now building and deploying automation — from a self-monitoring backend to Infrastructure as Code with Terraform and Docker.</p>
     <div class="hero-actions">
       <a href="#experience" class="btn-primary">View Experience ↓</a>
       <a href="https://www.credly.com/users/mohd-afzal.d3f0987e/badges#credly" target="_blank" class="btn-secondary">Credly Badges ↗</a>
@@ -494,9 +494,9 @@
   <div class="about-grid">
     <div>
       <p class="about-text">
-        Results-driven Cloud Infrastructure &amp; Operations Engineer with <strong>3+ years at Infosys</strong> supporting enterprise-grade AWS and multi-cloud environments. One of very few professionals in India holding <strong>active certifications across all three major cloud platforms</strong> — a significant differentiator for enterprise and GCC employers.
+        Results-driven infrastructure engineer with <strong>3+ years at Infosys</strong> supporting enterprise-grade AWS and multi-cloud environments, now focused on <strong>DevOps and automation engineering</strong>. One of very few professionals in India holding <strong>active certifications across all three major cloud platforms</strong> — a significant differentiator for enterprise and GCC employers.
         <br><br>
-        Proven track record in <strong>incident management (ServiceNow/ITIL)</strong>, Windows Server administration, application monitoring, and SLA compliance in healthcare and enterprise sectors. Currently advancing toward L2/L3 cloud operations and <strong>cloud solutions architecture</strong> roles.
+        Built and deployed a self-monitoring backend (Python/FastAPI + PostgreSQL) that automates the exact incident-detection workflow I used to handle manually via ServiceNow — containerized with Docker, with infrastructure provisioning practiced separately in Terraform. Proven track record in <strong>incident management (ServiceNow/ITIL)</strong>, Windows Server administration, and SLA compliance across healthcare and enterprise sectors.
       </p>
       <div class="about-contact">
         <a href="tel:+918938947066" class="contact-item"><span class="ci">✆</span> +91 89389 47066</a>
@@ -528,15 +528,16 @@
         <span class="skill-pill">SLA Management</span>
 
         <div class="skills-group-title">DevOps &amp; Automation</div>
+        <span class="skill-pill highlight">Docker</span>
+        <span class="skill-pill highlight">Terraform (IaC)</span>
         <span class="skill-pill">Python Scripting</span>
         <span class="skill-pill">Bash</span>
         <span class="skill-pill">CI/CD Pipelines</span>
         <span class="skill-pill">Git</span>
 
         <div class="skills-group-title">Currently Learning</div>
-        <span class="skill-pill" style="border-color:var(--teal);color:var(--teal)">Terraform (IaC)</span>
         <span class="skill-pill" style="border-color:var(--teal);color:var(--teal)">Kubernetes</span>
-        <span class="skill-pill" style="border-color:var(--teal);color:var(--teal)">Azure DevOps</span>
+        <span class="skill-pill" style="border-color:var(--teal);color:var(--teal)">Azure DevOps Pipelines</span>
       </div>
     </div>
   </div>
@@ -650,30 +651,34 @@
 <!-- PROJECTS -->
 <section id="projects">
   <div class="section-label">04 — Projects</div>
-  <h2 class="section-title">GitHub<br><em style="font-family:'Instrument Serif',serif; color:var(--muted); font-style:italic">Projects</em></h2>
+  <h2 class="section-title">Featured<br><em style="font-family:'Instrument Serif',serif; color:var(--muted); font-style:italic">Projects</em></h2>
   <div class="projects-grid">
 
-    <a href="https://github.com/mafzaldbd/RPS" target="_blank" class="proj-card">
-      <div class="proj-lang"><span class="lang-dot py"></span> Python</div>
-      <div class="proj-name">RPS</div>
-      <div class="proj-desc">Rock Paper Scissors game built in Python. A classic logic-based game demonstrating control flow and user interaction.</div>
+    <a href="https://github.com/mafzaldbd/incident-tracker" target="_blank" class="proj-card">
+      <div class="proj-lang"><span class="lang-dot py"></span> Python · FastAPI · PostgreSQL · Docker</div>
+      <div class="proj-name">Incident Tracker</div>
+      <div class="proj-desc">Self-monitoring backend inspired by ServiceNow — automated scheduled health checks (APScheduler) that self-generate incidents on failure, API key auth, live dashboard, containerized with Docker, deployed on Render.</div>
       <div class="proj-arrow">View on GitHub →</div>
     </a>
 
-    <a href="https://github.com/mafzaldbd/timer" target="_blank" class="proj-card">
-      <div class="proj-lang"><span class="lang-dot js"></span> JavaScript</div>
-      <div class="proj-name">Timer</div>
-      <div class="proj-desc">A timer project built in JavaScript. Clean countdown/stopwatch functionality demonstrating DOM manipulation and event handling.</div>
+    <a href="https://github.com/mafzaldbd/terraform-s3-demo" target="_blank" class="proj-card">
+      <div class="proj-lang"><span class="lang-dot js"></span> Terraform · AWS</div>
+      <div class="proj-name">Terraform IaC — AWS S3</div>
+      <div class="proj-desc">Infrastructure as Code project provisioning real AWS S3 infrastructure — full init → plan → apply → destroy lifecycle, version-controlled and documented.</div>
       <div class="proj-arrow">View on GitHub →</div>
     </a>
 
-    <a href="https://github.com/mafzaldbd/IDcardGenarator" target="_blank" class="proj-card">
-      <div class="proj-lang"><span class="lang-dot css"></span> CSS / HTML</div>
-      <div class="proj-name">ID Card Generator</div>
-      <div class="proj-desc">A dynamic ID card generator tool. Showcases CSS styling, layout design, and form-driven content generation.</div>
-      <div class="proj-arrow">View on GitHub →</div>
-    </a>
-
+  </div>
+  <div style="margin-top:2rem">
+    <div class="section-label" style="margin-bottom:1rem">Other Repositories</div>
+    <div class="projects-grid">
+      <a href="https://github.com/mafzaldbd/RPS" target="_blank" class="proj-card">
+        <div class="proj-lang"><span class="lang-dot py"></span> Python</div>
+        <div class="proj-name">RPS</div>
+        <div class="proj-desc">Rock Paper Scissors game built in Python. A classic logic-based game demonstrating control flow and user interaction.</div>
+        <div class="proj-arrow">View on GitHub →</div>
+      </a>
+    </div>
   </div>
   <div style="margin-top:1.5rem">
     <a href="https://github.com/mafzaldbd?tab=repositories" target="_blank" class="btn-secondary" style="cursor:none">View All Repositories ↗</a>
@@ -684,7 +689,7 @@
 <footer>
   <div class="footer-name">Mohd Afzal</div>
   <div class="footer-links">
-    <a href="https://linkedin.com/in/mohd-afzal-2aa247208" target="_blank">LinkedIn</a>
+    <a href="https://linkedin.com/in/mohd-afzal" target="_blank">LinkedIn</a>
     <a href="https://github.com/mafzaldbd" target="_blank">GitHub</a>
     <a href="https://www.credly.com/users/mohd-afzal.d3f0987e/badges#credly" target="_blank">Credly</a>
     <a href="mailto:Mafzaldbd00@gmail.com">Email</a>
