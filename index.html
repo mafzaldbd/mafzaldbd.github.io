@@ -612,14 +612,14 @@
     <a href="https://github.com/mafzaldbd/incident-tracker" target="_blank" class="proj-card">
       <div class="proj-lang"><span class="lang-dot py"></span> Python · FastAPI · PostgreSQL · Docker · GitHub Actions · AWS ECR</div>
       <div class="proj-name">Incident Tracker</div>
-      <div class="proj-desc">Monitoring backend inspired by ServiceNow. Servers, incidents, and incident logs are modeled in PostgreSQL and exposed through a FastAPI REST API. Scheduled health checks (APScheduler) create incidents automatically on failure. Containerized with Docker; a GitHub Actions pipeline builds the image and pushes it to Amazon ECR using OIDC. Deployed on Render.</div>
+      <div class="proj-desc">Monitoring backend inspired by ServiceNow. Servers, incidents, and incident logs are modeled in PostgreSQL and exposed through a FastAPI REST API. Scheduled health checks (APScheduler) create incidents automatically on failure. Containerized with Docker; a GitHub Actions pipeline builds the image and pushes it to Amazon ECR using OIDC. Deployed on Render, and on AWS (EC2 and RDS) with Terraform.</div>
       <div class="proj-arrow">View on GitHub →</div>
     </a>
 
     <a href="https://github.com/mafzaldbd/terraform-aws-vpc-ec2" target="_blank" class="proj-card">
       <div class="proj-lang"><span class="lang-dot js"></span> Terraform · AWS · GitHub Actions</div>
       <div class="proj-name">Terraform AWS VPC + EC2</div>
-      <div class="proj-desc">VPC with public and private subnets, internet gateway, Nginx EC2, ECR, and a private RDS PostgreSQL, built from reusable Terraform modules with separate dev and prod environments. Remote state in S3 with native locking. A GitHub Actions pipeline runs fmt, validate, and plan on every pull request, using OIDC and a read-only IAM role instead of stored keys.</div>
+      <div class="proj-desc">VPC with public and private subnets, internet gateway, EC2 running the Incident Tracker container from ECR, and a private RDS PostgreSQL with credentials in Secrets Manager, built from reusable Terraform modules with separate dev and prod environments. Remote state in S3 with native locking. A GitHub Actions pipeline runs fmt, validate, and plan on every pull request, using OIDC and a read-only IAM role instead of stored keys.</div>
       <div class="proj-arrow">View on GitHub →</div>
     </a>
 
